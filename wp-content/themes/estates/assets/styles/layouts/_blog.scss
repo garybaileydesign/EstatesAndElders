@@ -1,0 +1,133 @@
+
+/*
+  Blog Page
+*/
+
+section#blog {
+  .post {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+
+    &:last-child {
+      border-bottom: none !important;
+      margin-bottom: 0 !important;
+      padding-bottom: 0 !important;
+    }
+
+    .attachment-post-thumbnail {
+      width: 100%;
+      height: auto;
+    }
+
+    #thumbnail, .img-crop {
+      max-height: 400px;
+      overflow: hidden;
+    }
+
+    .time {
+      color:$light-body-font;
+      font-size: 2rem;
+      margin-top: 1.5em;
+      position: relative;
+      top: 9px;
+    }
+
+    .title {
+      font-size: 4.3rem;
+      font-family: $font;
+    }
+
+    a {
+      font-weight: bold;
+    }
+
+    .btn {
+      margin: 0 !important;
+      margin-top: 5px !important;
+      padding: 9px 21px 11px;
+      background-color: $primary-red !important;
+      font-family: $font;
+
+      &:hover {
+        background: #fff !important;
+        color: $primary-red !important;
+        border: 1px solid $primary-red !important;
+      }
+    }
+  }
+}
+section.contact-me {
+  padding: 54px 0 69px 0 !important;
+
+  @media (max-width: 992px) {
+    padding: 26px 0 52px!important;
+  }
+}
+
+section#blog{
+  h2 {
+    font-size: 6rem;
+    margin-top:0;
+    margin-bottom:0;
+    text-align: center;
+
+    @media (max-width: 992px) {
+      font-size: 3.3rem;
+    }
+  }
+
+  .post .description > p > a {
+    display:none;
+  }
+}
+
+#blog-post {
+  .entry-title {
+    font-size: 4.3rem;
+    font-family: $font;
+  }
+
+
+
+  #thumbnail img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .btn {
+    margin: 0 !important;
+    margin-top: 5px !important;
+    padding: 9px 21px 11px;
+    background-color: $primary-red !important;
+    font-family: $font;
+
+    &:hover {
+      background: #fff !important;
+      color: $primary-red !important;
+      border: 1px solid $primary-red !important;
+    }
+  }
+}
+
+#comments {
+  border-top: $light-body-font 1px solid;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#respond {
+  margin-top: 2.5em;
+}
+
+article.post span,
+article.post b {
+  font-size:2rem;
+}
+
+.author {
+  text-indent: 0 !important;
+}

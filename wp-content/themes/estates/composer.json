@@ -1,0 +1,21 @@
+{
+  "name": "estates",
+  "type": "wordpress-theme",
+  "license": "MIT",
+  "description": "The template for the Estates And Elders Website.",
+  "homepage": "http://estatesandelders.com",
+  "authors": [
+    {
+      "name": "John Rowley",
+      "email": "john@johnrowley.co",
+      "homepage": "https://github.com/robbert229"
+    },
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
+  }
+}

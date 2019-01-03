@@ -1,0 +1,200 @@
+
+/*!
+ * Start Bootstrap - Creative v1.1.0 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+}
+body {
+  font-family: $font-body;
+  font-size: 2.2rem;
+}
+hr {
+  border-color: $primary-red;
+  border-width: 3px;
+  max-width: 50px;
+}
+hr.light {
+  border-color: white;
+}
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: $primary-red;
+}
+a:hover,
+a:focus {
+  color: #eb3812;
+  cursor: pointer;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font;
+}
+
+p {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.bg-primary {
+  background-color: $secondary-blue;
+}
+
+.fake-header {
+  height:140px;
+
+  @media (max-width: 992px){
+    height: 0;
+  }
+}
+
+.ampersand {
+  background-image: url("/wp-content/themes/estates/dist/images/ampersand.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+
+.bg-dark {
+  background-color: #222222;
+  color: white;
+}
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.btn {
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+  color: #fff !important;
+  font-size: 2.4rem!important;
+  margin-top: 1em!important;
+  border-radius: 11px !important;
+}
+
+section {
+  padding: 40px 0 120px 0;
+
+  @media (max-width: 992px) {
+    padding: 20px 0 60px;
+  }
+}
+
+.bg-primary#blog {
+  padding-top: 208px;
+
+  @media (max-width: 992px) {
+    padding-top: 2.5em!important;
+  }
+}
+
+aside {
+  display:none;
+}
+.no-padding {
+  padding: 0;
+}
+
+.portrait {
+  background: #fff;
+  border-radius: 50%;
+  width: 280px;
+  margin: 0 auto;
+
+  @media (max-width: 992px) {
+    width: 200px;
+  }
+}
+
+.content {
+  p {
+    font-size:2.2rem;
+
+    @media(max-width:768px){
+      font-size:1.6rem;
+    }
+  }
+
+  li {
+    font-size: 2.2rem;
+    @media (max-width: 992px) {
+      font-size: 1.6rem;
+    }
+  }
+  ul {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-family: $font;
+    font-size:6rem;
+    font-weight: 100 !important;
+    color:$primary-red;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom:.5em;
+    margin-top: 1em;
+    font-weight:normal;
+
+    @media(max-width:992px){
+      font-size: 3.3rem;
+      font-weight: 400;
+    }
+  }
+}
+
+
+.btn {
+  font-family: $font;
+  font-weight: 100 !important;
+  border-radius: 6px !important;
+}
+
+.btn:hover {
+  color: $primary-red !important;
+  background-color: white !important;
+}
+
+.btn-xl {
+  font-size: 2.4rem !important;
+  padding: 12px 30px 15px;
+  border-radius: 6px;
+
+  @media (max-width: 992px) {
+    padding: 6px 18px 8px;
+    margin-top: .5em !important;
+    font-family: $font-extra;
+    font-weight: 700
+  }
+}
+
+.page-header {
+  height: 650px;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 0 !important;
+  margin-bottom: 0;
+}
+
+.post p,
+.content p {
+  text-indent: 1.5em;
+}
+
+.remove-indent {
+  text-indent: 0 !important;
+}

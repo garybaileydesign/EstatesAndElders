@@ -1,0 +1,22 @@
+/*
+  How I Work Page
+*/
+
+#how-i-work {
+	@extend .page-header;
+	background-image: url('/wp-content/themes/estates/dist/images/how-i-work.jpg');
+	background-position: 50% 26% !important;
+
+	@media (max-width: 992px) {
+		background-size: 200% !important;
+		background-position: center center !important;
+	}
+
+	@media (max-width: 480px) {
+	    background-position: 50% 59% !important;
+	    background-size: 216%!important;
+	    height: 460px!important;
+	    margin: 0!important;
+	    background-attachment: scroll;
+	}
+}
